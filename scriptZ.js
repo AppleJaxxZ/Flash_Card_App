@@ -1,10 +1,8 @@
-const arrayMethods = ["concat()", "constructor", "copyWithin()", "enteries()", "every()", "fill()", "filter()", "find()",
+const arrayMethods = ["Array-concat()", "constructor", "copyWithin()", "enteries()", "every()", "fill()", "filter()", "find()",
  "findIndex()", "forEach()", "from()", "includes()", "indexOf()", "isArray()", "join()", "keys()", "length", "lastIndexOf()",
   "map()", "pop()", "prototype", "push()", "reduce()", "reduceRight()", "reverse()", "shift()", "slice()", "some()", "sort()",
-   "splice()", "toString()", "unshift()", "valueOf()"];
-
-   const stringMethods = ["charAt()", "charCodeAt()", "concat()", "constructor", "endsWith()", "fromCharCode()", "includes()",
-    "indexOf()", "lastIndexOf()", "length", "localeCompare()", "match()", "prototyperepeat()", "replace()", "search()", "slice()",
+   "splice()", "toString()", "unshift()", "valueOf()", "charAt()", "charCodeAt()", "String-concat()", "endsWith()", "fromCharCode()", "includes()",
+    "indexOf()", "lastIndexOf()", "localeCompare()", "match()", "prototyperepeat()", "replace()", "search()", "slice()",
      "split()", "startsWith()", "substr()", "substring()", "toLocaleLowerCase()", "toLocaleUpperCase()", "toLowerCase()",
       "toString()", "toUpperCase()", "trim()", "valueOf()"];
 
@@ -55,7 +53,7 @@ switch(methodzz.innerHTML){
       info.innerHTML = 'Returns the value of the first element in an array that pass a test'
       break;
   case arrayMethods[8]:
-      info.innerHTML = 'The findIndex() method returns the index of the first element in an array that pass a test (provided as a function). The findIndex() method executes the function once for each element present in the array:If it finds an array element where the function returns a true value, findIndex() returns the index of that array element (and does not check the remaining values) Otherwise it returns -1. Note: findIndex() does not execute the function for array elements without values. Note: findIndex() does not change the original array.'
+      info.innerHTML = 'The findIndex() method returns the index of the first element in an array that pass a test (provided as a function). The findIndex() method executes the function once for each element present in the array:If it finds an array element where the function returns a true value, findIndex() returns the index of that array element (and does not check the remaining values) Otherwise it returns -1.'
       break;
   case arrayMethods[9]:
       info.innerHTML = 'Calls a function for each array element'
@@ -146,5 +144,106 @@ switch(methodzz.innerHTML){
       case arrayMethods[32]:
         info.innerHTML ='Returns the primitive value of an array'
         break;
+
+        case arrayMethods[33]:
+          info.innerHTML = 'Returns the character at the specified index (position)'
+          break;
+
+          case arrayMethods[34]:
+            info.innerHTML ='Returns the Unicode of the character at the specified index'
+            break;
+          
+            case arrayMethods[35]:
+              info.innerHTML ='Joins two or more strings, and returns a new joined strings'
+              break;
+
+              case arrayMethods[36]:
+                info.innerHTML ='Checks whether a string ends with specified string/characters'
+                break;
+
+                case arrayMethods[37]:
+                  info.innerHTML ='Converts Unicode values to characters'
+                  break;
+
+                  case arrayMethods[38]:
+                    info.innerHTML ='Checks whether a string contains the specified string/characters'  
+                    break;
+
+                    case arrayMethods[39]:
+                      info.innerHTML ='Returns the position of the first found occurrence of a specified value in a string'
+                      break;
+
+                      case arrayMethods[40]:
+                        info.innerHTML ='Returns the position of the last found occurrence of a specified value in a string'
+                        break;
+
+                        case arrayMethods[41]:
+                          info.innerHTML ='Compares two strings in the current locale'
+                          break;
+
+                          case arrayMethods[42]:
+                            info.innerHTML ='Searches a string for a match against a regular expression, and returns the matches'
+                            
+                            break;
+
+                            case arrayMethods[43]:
+                              info.innerHTML ='Returns a new string with a specified number of copies of an existing string'
+                              break;
+
+                              case arrayMethods[44]:
+                                info.innerHTML ='Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced'
+                                break;
+
+                                case arrayMethods[45]:
+                                  info.innerHTML ='Searches a string for a specified value, or regular expression, and returns the position of the match'
+                                  break;
+
+                                  case arrayMethods[46]:
+                                    info.innerHTML ='Extracts a part of a string and returns a new string'
+                                    break;
+
+                                    case arrayMethods[47]:
+                                      info.innerHTML = 'Splits a string into an array of substrings'
+                                         break;
+
+ case arrayMethods[48]:
+  info.innerHTML = 'Checks whether a string begins with specified character'   
+  break;
+
+  case arrayMethods[49]:
+    info.innerHTML = 'Extracts the characters from a string, beginning at a specified start position, and through the specified number of character'
+    break;
+
+    case arrayMethods[50]:
+      info.innerHTML = 'Extracts the characters from a string, between two specified indices'
+      break;
+
+      case arrayMethods[51]:
+        info.innerHTML = 'Converts a string to lowercase letters, according to the hosts locale'
+        break;
+
+        case arrayMethods[52]:
+          info.innerHTML ="Converts a string to uppercase letters, according to the host's locale"
+          break;
+
+          case arrayMethods[53]:
+            info.innerHTML = "Converts a string to lowercase letters"
+            break;
+
+            case arrayMethods[54]:
+              info.innerHTML ="Returns the value of a String object"
+              break;
+
+              case arrayMethods[55]:
+                info.innerHTML ="Converts a string to uppercase letters"  
+                break;
+
+                case arrayMethods[56]:
+                  info.innerHTML =  "Removes whitespace from both ends of a string"              
+                   break;
+
+                  case arrayMethods[57]:
+                    info.innerHTML ="Returns the primitive value of a String object" 
+                    break;
 }
 };
