@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,25 +8,27 @@
     <link type="text/css" rel="stylesheet" href="./style.css">
 
 </head>
+<div class="container-fluid">
 <body id="body">
-    <h1 id="topTitle">Method:</h1>
-    <h1 id="answer">Answer:</h1>
 <div class="card">
     <div class="container">
+        <h1 id="topTitle">Method:</h1>
         <p class="method-styling" id="methodR"></p>
         
     </div>
     <div class="container_bottom">
+        <h1 id="answer">Answer:</h1>
         <p class="paragraph-styling" id="info"></p>
     </div>
 </div>
 
 <div class="buttonFlex">
-    <button class="buttons" id="answerBtn" onclick="randomString()">Answer</button>
-<button class="buttons" id="nextBtn" onclick="randomMethod()">Next Card</button>
+    <button class="btn btn-default" id="answerBtn" onclick="randomString()">Answer</button>
+<button class="btn btn-default" id="nextBtn" onclick="randomMethod()">Next Card</button>
 </div>
 
 
 <script src="scriptZ.js" async defer></script>
 </body>
+</div>
 </html>

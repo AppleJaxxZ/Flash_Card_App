@@ -29,21 +29,23 @@ background-image: url(./images/brickwall.jpg);
     font-family: aerosol;
     src:url(./fonts/Aerosol.ttf)
 }
+
 #topTitle {
-    position:absolute;
-    margin-left: 300px;
-    margin-top: 130px;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 50px;
     color: black;
-    font-size: 80px;
+    font-size: 20px;
     font-family:wreckin;
+    ;
 }
 
 
 #answer {
-    position:absolute;
-    margin-left: 300px;
-    margin-top: 400px;
-    font-size: 65px;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
     font-family: wreckin;
     font-weight: bolder;
     color: black;
@@ -64,10 +66,9 @@ background-image: url(./images/brickwall.jpg);
   }
   
   .container {
-   
     width: 100%;
     height: 50%;
-    border: none;
+    border: 2px solid black;
     margin: 0;
     padding: 0;
     background-image: url(./images/chalkTop.jpg);
